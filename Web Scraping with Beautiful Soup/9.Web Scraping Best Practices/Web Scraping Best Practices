@@ -1,0 +1,8 @@
+BEST PRACTICES
+
+
+1 - Avoid using Selenium
+2 - Limit your requests to the server
+3 - Download webpages
+4 - Parse pessimistically
+5 - Divide and conquer
