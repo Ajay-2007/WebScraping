@@ -64,10 +64,14 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'books_to_scrape.pipelines.BooksToScrapePipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'scrapy.pipelines.images.ImagesPipeline': 1,
+}
 
+IMAGES_STORE = r'C:\Users\d33ps3curity\Desktop\6th_Semester\Project\Diagnostic Tool using Deep Learning\WebScraping\Web Scraping\WebScraping\Web Scraping with Python using Scrapy Splash Selenium\books_to_scrape'
+
+
+DOWNLOAD_TIMEOUT = 1200
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True

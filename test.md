@@ -1,0 +1,4 @@
+- [x] I've upgraded cfscrape with `pip install -U cfscrape`
+- [x] I'm using Node version 10 or higher
+- [x] The site protection I'm having issues with is from Cloudflare
+- [x] I'm not using Tor, a VPN, or an anonymizing proxy
